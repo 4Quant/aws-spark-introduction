@@ -1,4 +1,4 @@
-# Introduction to Apache Spark
+# Introduction to Apache Spark on Amazon AWS
 __[The presentation](https://rawgit.com/4Quant/spark-introduction/master/TutorialSlides.html)__
 ## Kevin Mader (4Quant and ETH Zurich)
 The tutorial was given as part of the Big Data course by Professor Thomas Hofmann at ETH Zurich (www.da.inf.ethz.ch/lectures/bigdata/)
@@ -7,6 +7,7 @@ The tutorial was given as part of the Big Data course by Professor Thomas Hofman
 - Spark Demo from this presentation - https://gist.github.com/kmader/755c2d99c23f4cbe2e74
 - Setting up Spark on top of Sun Grid Engine (PSI) - https://github.com/4Quant/sge_spark
 - Setting up Spark on the Brutus and Euler Clusters (ETH) - https://bitbucket.org/skicavs/spark-on-brutus
+- 
 ### Imaging with Spark
 - 4Quant: From Images to Statistics - http://www.4quant.com
 - X-Ray Imaging Group at ETH Zurich - http://bit.ly/1gD8wKb

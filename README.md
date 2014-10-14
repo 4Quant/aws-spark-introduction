@@ -1,5 +1,5 @@
 # Introduction to Apache Spark
-__[The presentation](https://rawgit.com/4Quant/spark-introduction/master/TutorialSlides.html)__
+__[The presentation](https://rawgit.com/4Quant/aws-spark-introduction/master/TutorialSlides.html)__
 ## Kevin Mader (4Quant and ETH Zurich)
 The tutorial was given as part of the Big Data course by Professor Thomas Hofmann at ETH Zurich (www.da.inf.ethz.ch/lectures/bigdata/)
 

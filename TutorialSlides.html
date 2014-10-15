@@ -1162,11 +1162,12 @@ sc.hadoopConfiguration.set(&quot;fs.s3n.awsSecretAccessKey&quot;,&quot;....&quot
 </code></pre>
 
 <ul>
-<li>Convert the tuples to case classes
-&ldquo;
-case class ImPos(x: Double, y: Double, intensity: Double)
-val ccpts = pts.map(inpt =&gt; ImPos(inpt(0),inpt(1),inpt(2)))</li>
+<li>Convert the tuples to case classes</li>
 </ul>
+
+<pre><code>case class ImPos(x: Double, y: Double, intensity: Double)
+val ccpts = pts.map(inpt =&gt; ImPos(inpt(0),inpt(1),inpt(2)))
+</code></pre>
 
 <ul>
 <li>Show the first point, then count how many points are in a region of interest</li>

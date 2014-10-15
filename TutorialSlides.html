@@ -1045,10 +1045,11 @@ export AWS_SECRET_ACCESS_KEY=&quot;???&quot;
 
 <p>The following command starts a cluster with 1 slave using the spark-key-pair.pem file just created in the Amazon Region <strong>eu-west-1</strong> (this must be the same as where you created the key pair, and should be eu-west-1 if you are in Switzerland)</p>
 
-<pre><code>./spark-ec2 -k spark-key-pair -i ~/Downloads/spark-key-pair.pem -s 1 start big-data-test-cluster --region=eu-west-1
+<pre><code>./spark-ec2 -k spark-key-pair -i ~/Downloads/spark-key-pair.pem -s 1 launch big-data-test-cluster --region=eu-west-1
 </code></pre>
 
 <ul>
+<li>Replace <code>launch</code> with <code>start</code> after the cluster has been created for the first time</li>
 <li><a href="http://people.ee.ethz.ch/%7Emaderk/videos/SettingUpSpark.swf">Screencast</a> of setup</li>
 </ul>
 
